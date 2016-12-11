@@ -1,0 +1,6 @@
+{
+	"name": "decodeapp",
+	"description": "decode App",
+	"repository": "https://github.com/HanoyanFregell/finalhanoyan.git",
+	"image": "heroku/nodejs"
+}
