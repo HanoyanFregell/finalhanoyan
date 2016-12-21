@@ -36,7 +36,7 @@ statusChangeCallback(response);
 }
 window.fbAsyncInit = function() {
 FB.init({
-appId : ' 240975013002998',
+appId : ' 680528182118596',
 cookie : true, // enable cookies to allow the server to access 
 // the session
 xfbml : true, // parse social plugins on this page
@@ -73,22 +73,10 @@ FB.api('/me', function(response) {
 console.log('Successful login for: ' + response.name);
 document.getElementById('status').innerHTML =
 'Thanks for logging in, ' + response.name + '!';
+ window.open('https://decodeapp-herokufhanoyan.herokuapp.com/');
+
 }); 
-window.open('https://decodeapp-herokufhanoyan.herokuapp.com/app.html#');
-this.fbname = [
-{
-"name": "Edbriel John Finney",
-"name": "Joe Syl",
-"name": "Shane Alanys Goloran Quisay",
-"name": "Horace Europa",
-}
-];
-for (var i = 0; i < this.fbname.length; i++) {
-if (response.name == fbname) {
-window.open('https://decodeapp-herokufhanoyan.herokuapp.com/app.html#');
-}
-}
-}
+
 </script>
 
 <!--
